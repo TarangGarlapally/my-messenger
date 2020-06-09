@@ -1,12 +1,12 @@
 import React from "react";
-import HighlightIcon from "@material-ui/icons/Highlight";
+import SendIcon from "@material-ui/icons/Send";
 
 function Header() {
   return (
     <header>
       <h1>
-        <HighlightIcon />
-        Keeper
+        <SendIcon />
+        ITextU
       </h1>
     </header>
   );

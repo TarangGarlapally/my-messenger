@@ -15,7 +15,7 @@
   header {
     background-color: #f5ba13;
     margin: auto -16px;
-    padding: 16px 32px;
+    padding: 10px 20px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
   }
   
@@ -35,6 +35,42 @@
   
   footer p {
     color: #ccc;
+  }
+
+  .message{
+    margin-bottom: 5px;
+    padding: 2%;
+    border-radius: 5px;
+    width: 80%;
+    background-color: rgb(212, 241, 105);
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+  }
+
+  .about-pane{
+    position: relative;
+    margin-top: 0.5%;
+    height: calc(100vh - 100px);
+    background-color: grey;
+  }
+
+
+  .chat-box{
+    margin-top: 4px;
+    margin-left: 28px;
+    margin-right: 20px;
+    height: calc(100vh - 230px);
+    overflow-y:scroll;
+
+  }
+  .profile{
+    align-items: center;
+  }
+  .profile-pic{
+      margin-top: 20px;
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      border: 5px solid #fff;
   }
   .note {
     background: #fff;
@@ -71,9 +107,10 @@
   form.create-note {
     position: relative;
     width: 480px;
-    margin: 30px auto 20px auto;
+    margin:  20px auto;
     background: #fff;
     padding: 15px;
+    padding-top: 0px;
     border-radius: 7px;
     box-shadow: 0 1px 5px rgb(138, 137, 137);
   }
